@@ -319,6 +319,10 @@ header,
     flex-direction: column;
 }
 
+.images img {
+    border-radius: 25px;
+}
+
 .img1 {
     height: 100%;
     position: relative;
@@ -333,9 +337,14 @@ header,
     top: 80px;
 }
 
+.img3 {
+    border-radius: 25px;
+}
+
 .protfolio {
     margin-top: 120px;
     width: 82%;
+
 }
 
 .pro-text h3 {
@@ -443,4 +452,50 @@ button {
     width: 150px;
     color: #FFF;
     font-weight: 700;
+}
+
+footer {
+    padding: 0% 9%;
+    height: 509px;
+    background: #070211;
+    width: 100%;
+    max-width: 1600px;
+}
+footer hr{
+    border: 0.5px solid #464242;
+}
+
+.foot {
+    width: 82%;
+    height: 35%;
+    color: #FFF;
+}
+
+.foot>div {
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-between;
+
+}
+
+.foot-p {
+    margin-top: 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    display: inline;
+}
+.icons{
+    height: 25%;
+    width: 82vw;
+    gap: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
 }
