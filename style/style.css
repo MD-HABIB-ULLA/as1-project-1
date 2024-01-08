@@ -379,11 +379,15 @@ header,
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+  
 }
 
 .pro-image-r1 img {
     width: 32%;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    transition: all .5s;
 
 }
 
@@ -395,7 +399,16 @@ header,
 
 .pro-image-r2 img {
     width: 32%;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    transition: all .5s;
+    cursor: pointer;
 
+
+}
+.pro-image-r1 img:hover, .pro-image-r2 img:hover{
+    border:2px solid #F00;
+    transform: translateY(4px);
 }
 
 .subscribe {
@@ -501,4 +514,7 @@ footer hr{
 .bottom{
     display: flex;
     justify-content: space-between;
+}
+.icons img{
+    cursor: pointer;
 }
