@@ -311,7 +311,8 @@ header,
     height: 70%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
+    
 }
 
 .images {
@@ -324,10 +325,10 @@ header,
 }
 
 .img1 {
-    height: 100%;
+    height: auto;
     position: relative;
-    top: 150px;
-    left: 30px;
+    top: 8vw;
+    left: 5vw;
 }
 
 .img2 {
@@ -335,9 +336,11 @@ header,
     position: relative;
     right: -130px;
     top: 80px;
+    z-index: 300;
 }
 
 .img3 {
+    height: auto;
     border-radius: 25px;
 }
 
